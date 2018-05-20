@@ -1,0 +1,151 @@
+#allPlayersTable{
+    -fx-border-image-width: 10px;    
+    -fx-border-image-source: url("../images/candyprim.png");
+    -fx-border-style: solid;
+    -fx-border-image-repeat: stretch;
+    -fx-border-image-slice: 30;
+/*    border: 10px solid transparent; 
+    border-image-repeat: round;
+    border-image-slice: 30;*/
+}
+#colUsername,#colStatus,#colScore{
+    -fx-background-color: #E13333;
+}
+.mainFxmlClass {
+    -fx-background-image: url("../images/bg.jpg") ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left  ;
+    -fx-margin-top: 50px;
+    -fx-background-size:stretch;
+}
+/*#Info{
+     -fx-border-width: 2;
+    -fx-border-color: gray;
+    -fx-background-color: gainsboro;
+}*/
+#opponent{
+     
+     -fx-background-image: url("../images/peice.png") ;
+     -fx-background-repeat: no-repeat;
+     
+      -fx-background-size:stretch;
+     -fx-margin-top: 50px;
+}
+.label{
+    
+     -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: whitesmoke;
+}
+.button {
+   -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 15;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 10 10 10 10;
+    -fx-margin-Top:50px;
+   
+}
+.button:hover {
+     -fx-background-color: linear-gradient(#ffea6a, #efaa22),linear-gradient(#ffd65b, #e68400);
+}
+#palyerImg{
+    -fx-border-width: 2;
+    -fx-border-color: gray;
+    -fx-background-color: gainsboro;
+    
+}
+#human{
+   -fx-background-image: url("../images/peice.png") ;
+     -fx-background-repeat: no-repeat;
+     
+      -fx-background-size:stretch;
+     -fx-margin-top: 50px;
+}
+
+#computer{
+    -fx-border-width: 2;
+    -fx-border-color: gray;
+    -fx-background-color: gainsboro;
+}
+
+#opponentImg{
+    
+}
+#playerName{
+    -fx-font-size: 25px;
+   -fx-font-family: "Arial Black";
+   -fx-font-weight: bold;
+   -fx-text-fill: whitesmoke;
+}
+#opponentName{
+    -fx-font-size: 25px;
+   -fx-font-family: "Arial Black";
+   -fx-font-weight: bold;
+   -fx-text-fill:whitesmoke;
+}
+#lbl,#playerScore,#opponentScore{
+    -fx-font-size: 20px;
+   -fx-font-family: "Arial Black";
+   -fx-font-weight: bold;
+   -fx-fill: white;
+}
+#arcade{
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 15;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-padding: 10 10 10 10;
+    -fx-margin-Top:50px;
+    
+}
+#arcade:hover {
+    
+     -fx-background-color: linear-gradient(#ffea6a, #efaa22),linear-gradient(#ffd65b, #e68400);
+}
+#invite{
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 15;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-padding: 10 10 10 10;
+    -fx-margin-Top:50px;
+}
+#invite:hover {
+    
+      -fx-background-color: linear-gradient(#ffea6a, #efaa22),linear-gradient(#ffd65b, #e68400);
+
+}
+#img{
+     -fx-background-radius:50,50;	
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+#opponentImgView{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-radius:50,50;
+}
+#playerImgView{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-border-radius:50,50;
+}

@@ -1,0 +1,48 @@
+#GridPane2 {    
+  -fx-background-image: url("../images/bg.jpg") ;
+     -fx-background-repeat: no-repeat;
+     -fx-background-position:left  ;
+     -fx-margin-top: 50px;
+     -fx-background-size:stretch;    
+}
+
+#info{
+   -fx-background-image: url("../images/wood-texture.jpg") ;
+}
+
+#buttons{
+    -fx-background-image: url("../images/board.png") ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:stretch;
+    -fx-halignment: center;
+    -fx-valignment: center;
+    -fx-background-position: center;    
+}
+
+.label{    
+     -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill:white;
+}
+
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    
+-fx-graphic: url("../images/null.png");
+-fx-background-color: transparent;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-size:cover;  
+}
+#player1Name{
+    -fx-text-fill: whitesmoke;
+}
+
+#player2Name{
+    -fx-text-fill: whitesmoke;
+}
+#massge{
+     -fx-text-fill: whitesmoke;    
+}
+#vs{
+     -fx-text-fill:whitesmoke ;
+}
